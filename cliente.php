@@ -17,7 +17,7 @@
         <style>
             
              body{
-                    background: url('images/IMGS/IMG DIV SITE-19.jpg')
+                    background: url('images/IMGS/IMG DIV SITE-19.jpg');
                 }
 
         </style>
