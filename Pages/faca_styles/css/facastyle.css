@@ -2318,6 +2318,11 @@ a {
   }
 }
 
+.imggeralIndex {
+  margin-top: 10px;
+  margin-bottom: 10vh;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .paiContainer {
@@ -2798,6 +2803,11 @@ input[type="text"]:focus ~ .flabel, input[type="text"]:valid ~ .flabel, input[ty
   left: 0;
   color: #0e97b7;
   font-size: 1rem;
+}
+
+.imggeralIndex {
+  margin-top: 10px;
+  margin-bottom: 10vh;
 }
 
 /* Small devices (landscape phones, 576px and up) */

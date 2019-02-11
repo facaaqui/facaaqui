@@ -117,9 +117,9 @@ session_start();
 
 	<!-- =================== IMAGENS EMPRESA =================== -->
 
-		<div class="container-fluid mt-3 mb-5">
+		<div class="container-fluid imggeralIndex">
 
-			<div class="row justify-content-center empresasimagens" id="mercados">
+			<div class="row justify-content-center" id="mercados">
 		
 
 			</div> <!-- END BACK -->
