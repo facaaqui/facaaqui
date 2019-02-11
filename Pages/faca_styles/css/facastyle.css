@@ -2320,7 +2320,7 @@ a {
 
 .imggeralIndex {
   margin-top: 10px;
-  margin-bottom: 10vh;
+  margin-bottom: 90px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -2807,7 +2807,7 @@ input[type="text"]:focus ~ .flabel, input[type="text"]:valid ~ .flabel, input[ty
 
 .imggeralIndex {
   margin-top: 10px;
-  margin-bottom: 10vh;
+  margin-bottom: 90px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
