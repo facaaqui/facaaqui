@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+// controla o carousel completo
+
+  .crsl {
+
+    margin-top: 73px;
+
+  }
+
+
+
+///////////////////////////  MEDIAS ///////////////////////////
+  
+
+   /* Small devices (landscape phones, 576px and up) */
+
+    @media screen and (min-width: 576px) {
+
+
+        // controla a altura do carousel / as imagens
+
+        .crslt { 
+
+            height:200px;
+            
+        }
+
+    }
+
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+
+    @media screen and (max-width: 768px) { 
+
+
+        // controla a altura do carousel / as imagens
+
+        .crslt {
+
+            height:200px;
+            
+        }
+
+    }
+
+
+
+
+
+ /* Large devices (desktops, 992px and up) */
+
+    @media screen and (min-width: 992px) { 
+
+
+        // controla a altura do carousel / as imagens
+
+        .crslt {
+
+            height:300px;
+            
+        }
+
+    }
+
+
+
+ /* Extra large devices (large desktops, 1200px and up) */
+
+    @media screen and (min-width: 1200px) { 
+
+
+        // controla a altura do carousel / as imagens
+
+        .crslt {
+
+            height:400px;
+            
+        }
+
+    }
+
+
+
+
+
+    

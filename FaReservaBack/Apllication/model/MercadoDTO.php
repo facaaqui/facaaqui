@@ -20,13 +20,13 @@ class MercadoDTO extends AbstractDTO {
     public $nif;
     public $foto;
     public $infoAdd;
-    public $foto1;
-    public $foto2;
+    public $fotoUm;
+    public $fotoDois;
     public $municipio;
     public $bairro;
     public $provincia;
     public $statusDeligence;
-    public $foto3;
+    public $fotoTres;
     public $idUser;
   
     function getId() {
@@ -61,12 +61,12 @@ class MercadoDTO extends AbstractDTO {
         return $this->infoAdd;
     }
 
-    function getFoto1() {
-        return $this->foto1;
+    function getFotoUm() {
+        return $this->fotoUm;
     }
 
-    function getFoto2() {
-        return $this->foto2;
+    function getFotoDois() {
+        return $this->fotoDois;
     }
 
     function getMunicipio() {
@@ -117,12 +117,12 @@ class MercadoDTO extends AbstractDTO {
         $this->infoAdd = $infoAdd;
     }
 
-    function setFoto1($foto1) {
-        $this->foto1 = $foto1;
+    function setFotoUm($fotoUm) {
+        $this->fotoUm = $fotoUm;
     }
 
-    function setFoto2($foto2) {
-        $this->foto2 = $foto2;
+    function setFotoDois($fotoDois) {
+        $this->fotoDois = $fotoDois;
     }
 
     function setMunicipio($municipio) {
@@ -141,12 +141,12 @@ class MercadoDTO extends AbstractDTO {
         $this->statusDeligence = $statusDeligence;
     }
     
-    function getFoto3() {
-        return $this->foto3;
+    function getFotoTres() {
+        return $this->fotoTres;
     }
 
-    function setFoto3($foto3) {
-        $this->foto3 = $foto3;
+    function setFotoTres($fotoTres) {
+        $this->fotoTres = $fotoTres;
     }
     
     function getIdUser() {

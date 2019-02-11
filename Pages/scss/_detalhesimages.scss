@@ -1,0 +1,378 @@
+
+
+
+
+
+// background geral da página
+
+    .bg-blue {
+
+        background-color: $blue;
+        background-image: url("../../img/noisebg.png"); 
+        
+    }
+    
+
+
+
+
+// detalhes header geral
+
+    .dth {
+
+        color: #0e97b7;
+        background-color:  rgb(255, 255, 255);
+        width: 100%;
+        @include faca-box-shadow;
+
+
+
+        // botão voltar para INDEX
+
+        .iback {
+
+            font-size: 1.5em;
+            background-color: $white;
+            border-radius: 70%;
+
+            &:hover {
+
+            color: $blueh;
+
+            }
+
+            // detalhes texto Voltar
+
+            .dthhdr {
+
+                font-family: signikasemibold !important;
+
+            }
+
+
+        }   
+
+    }
+
+
+
+
+
+    
+////////////////////////  ALL  ////////////////////////
+
+
+
+// box que controla todos elementos da página detalhes
+
+
+    .dthPai {
+
+        box-sizing: border-box;
+
+    }
+
+
+
+// box que controla as imagens e a descrição menos o rodapé
+
+    .dthBoxAll {
+
+        @include faca-box-shadow;
+        background-color: rgb(255, 255, 255);
+        box-sizing: border-box;
+    }
+
+
+
+// descrição da empresa
+
+    .dthInfodisc {
+
+    color: rgb(0, 0, 0);
+    overflow: auto;
+    height: 280px;
+    padding-right: 9px;
+    box-sizing: border-box;
+    font-family: signikaregular;
+
+    }
+
+
+
+//  titulo da empresa
+
+    .dtht {
+
+        font-family: signikasemibold;
+        color: $blue;
+
+    }
+
+
+
+// detalhes rodape completo
+
+    .dthf {
+
+        color: #0e97b7;
+        background-color:  rgb(255, 255, 255);
+        width: 100%;
+        @include faca-box-shadow;
+
+    }
+
+
+
+// detalhes rodape texto
+
+    .dthtf {
+
+        font-family: signikaregular;
+        color: black;
+
+    }
+
+
+
+// detalhes rodape icons
+
+    .dthif { 
+        
+        font-size: 18px;
+    }
+
+
+
+// detalhes rodape indicadores
+
+    .indicadoresCarousel {
+
+        position: absolute;
+        left:330px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+ /* =================  MEDIAS BOX CENTRAL DE TUDO, ALINHAMENTO VERTICAL =================*/ 
+
+
+ /* Small devices (landscape phones, 360px and up) */
+ 
+    @media only screen and (min-width: 360px) { 
+
+        
+        // box que controla todos elementos da página detalhes
+    
+        .dthPai {
+    
+            margin-top: 10vh;
+            margin-bottom: 12vh;
+        } 
+    
+    }
+
+
+  
+  
+/* Small devices (landscape phones, 576px and up) */
+  
+    @media only screen and (min-width: 576px) { 
+    
+    
+        // box que controla todos elementos da página detalhes       
+        
+        .dthPai {
+        
+            margin-top: -5vh;
+            margin-bottom: 12vh;
+  
+        } 
+    
+    }
+    
+  
+
+/* Small devices (landscape phones, 576px and up) */
+  
+    @media only screen and (max-width: 576px) {
+  
+  
+        // box que controla todos elementos da página detalhes        
+    
+        .dthPai {
+    
+            margin-top: -5vh;
+            margin-bottom: 12vh;
+
+        
+        } 
+    
+        // box que controla todos elementos dentro da página detalhes Pai       
+
+        .dthMae {
+
+            margin-top: 110px;
+            margin-bottom: 80px;
+
+        }
+
+
+        // box que controla todos elementos do rodapé geral               
+
+        .dthInfoAll {
+
+            margin-top: 20px;
+
+        }
+
+    }
+  
+  
+  
+
+/* Medium devices (tablets, 768px and up) */
+  
+     @media only screen and (min-width: 768px) { 
+  
+  
+        // box que controla todos elementos da página detalhes        
+    
+        .dthPai {
+        
+            margin-top: -5vh;
+            margin-bottom: 13vh;
+        
+        } 
+        
+    }
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+  
+     @media only screen and (max-width: 768px) { 
+  
+  
+        // box que controla todos elementos dentro da página detalhes Pai               
+    
+        .dthMae {
+            margin-top: 110px;
+            margin-bottom: 80px;
+        } 
+        
+
+        // box que controla todos elementos do rodapé geral               
+
+        .dthInfoAll {
+
+            margin-top: 20px;
+
+        }
+
+    }
+
+
+
+
+  /* Large devices (desktops, 992px and up) */
+  
+  @media only screen and (min-width: 992px) {    
+  
+  
+    // box que controla todos elementos da página detalhes
+  
+    .dthPai {
+  
+      margin-top: -5vh;
+      margin-bottom: 14vh;
+    
+    } 
+  
+  }
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+  
+  @media only screen and (max-width: 992px) {    
+
+  
+    // box que controla todos elementos dentro da página detalhes Pai       
+
+    .dthMae {
+
+        margin-top: 110px;
+        margin-bottom: 80px;
+    }
+  
+
+    // box que controla todos elementos do rodapé geral               
+
+    .dthInfoAll {
+
+        margin-top: 20px;
+
+    }
+
+  }
+  
+
+  
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  
+    @media only screen and (min-width: 1200px) {  
+
+
+        // box que controla todos elementos do rodapé geral               
+    
+        .dthInfoAll {
+
+            margin-top: 20px;
+            
+        }
+
+
+        // box que controla todos elementos da página detalhes
+        
+        .dthPai {
+        
+            margin-top: 20vh;
+            margin-bottom: 4vh;
+        
+        } 
+    
+    }
+  
+
+    
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  
+    @media only screen and (max-width: 1200px) {  
+
+
+        // box que controla todos elementos dentro da página detalhes Pai               
+        
+        .dthMae {
+
+            margin-top: 110px;
+            margin-bottom: 80px;
+            
+            }
+    
+    }
+  
+
+

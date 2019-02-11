@@ -1,0 +1,45 @@
+
+
+
+
+@mixin inputStyle {
+    
+    input[type="text"], input[type="email"], input[type="password"] {
+
+        padding: 10px 0;
+        width: 100%;
+        box-sizing: border-box;
+        box-shadow: none;
+        outline: none;
+        border: none;
+        background-color: $white;
+
+    }
+
+    [type=file] {
+
+        display: none;
+
+    }
+    
+    input[type="search"] {
+
+        font-family: signikalight;
+        transition: all 700ms ease-in-out;
+
+        &:focus {
+
+            margin-right: 20px;
+
+        }
+       
+
+    }
+
+}
+
+
+
+    
+    
+    

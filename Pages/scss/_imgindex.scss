@@ -1,0 +1,276 @@
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) { 
+
+    .paiContainer{
+        margin-left: -10px;
+    }
+  }
+
+
+// container completo de rotação manual
+
+.paiContainer {
+
+        perspective: 800px;
+        margin-bottom: 30px;
+}
+
+
+
+// container completo rotacionando
+
+.paiContainer:not(.rotacaoManual):hover .boximgPai,
+.paiContainer.hover.rotacaoManual .boximgPai
+
+{
+    transform: rotateY( 180deg );
+}
+
+
+.paiContainer.static:hover .boximgPai,
+.paiContainer.static.hover .boximgPai
+
+{
+    transform: none;
+}
+
+
+// container completo segundo pai
+
+.boximgPai 
+
+{
+   transition: transform .5s;
+   transform-style: preserve-3d;
+}
+
+
+
+// container completo frente
+
+.boxf {
+
+    backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+    box-shadow: 0 2px 3px rgba(0,0,0,.5);
+    z-index: 2;
+    
+}
+
+
+
+
+// container completo tras
+
+.boxt {
+
+    backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+
+    transform: rotateY( 180deg );
+    z-index: 3;
+
+}
+
+
+
+// container completo pai frente tras
+
+.paiContainer, .boxf, .boxt {
+
+	width: 350px;
+	height: 250px;
+    box-sizing: border-box;
+
+}
+
+
+
+// container completo cover para imagens
+
+.cover {
+
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+// imagem empresa
+
+.imgempresa {
+
+    border: 4px solid #0e97b7;
+    width: 100%;
+
+}
+
+
+// mais informação tras
+
+.content {
+
+    height: 150px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    font-size: 1.3em;
+
+}
+
+
+// rodapé frente e tras
+
+.boxffo, .boxfoot {
+
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(14, 151, 183, .4);
+    width: 100%;
+    background-color: #0e97b7;
+    height: 46px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    font-family: signikalight;
+
+
+}
+
+// tamanho dos elementos do rodapé
+
+.boxffo, .boxfoot {
+
+    font-size: 18px;
+
+}
+
+
+
+// header box tras
+
+.boxthdr {
+
+    padding: 15px 20px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+
+// titulo da empresa tras
+
+ .boxthdrt {
+
+    border-bottom: 1px solid rgb(165, 164, 164);
+    color: #0e97b7;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: signikasemibold;
+
+}
+
+
+  // botão roudondo tras icons
+
+.fbtnr{
+    margin-top: 8px;
+}
+
+
+
+// icon footer tras social
+
+.boxffoicont {
+
+    font-size: 18px;
+    
+}
+
+
+// icon footer tras social
+
+.boxfooticont { 
+
+   font-size: 19px ; 
+   margin-left: 10px;
+   margin-top: 5px;
+
+}
+
+
+// icon footer tras informação cor
+
+.iconcor {
+
+    color: #0e97b7;
+
+}
+
+
+// localidade no rodape de frente  com icon
+
+.boxffolo {
+
+    margin-top: 7px;
+    margin-left: 5px;
+    color: white ;
+}
+
+
+
+// informação das empresas tras
+
+.boxtinfo {
+
+    font-family: signikaregular;
+   
+}
+
+
+
+
+
+// bloquear erros no internet explore
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .boxf, .boxt{
+        backface-visibility: visible;
+        backface-visibility: visible;
+    }
+
+    .boxt {
+        visibility: hidden;
+        transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
+    }
+    .boxf{
+        z-index: 4;
+    }
+    .paiContainer:not(.rotacaoManual):hover .boxt,
+    .paiContainer.rotacaoManual.hover .boxt{
+        z-index: 5;
+        visibility: visible;
+    }
+}
+
+
+
+// BOXPAI FOREACH ANUNCIADOS
+
+.boxPaiForeach {
+
+    margin-top: 110px;
+  
+  }

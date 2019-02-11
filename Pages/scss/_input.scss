@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+////////////////////     FORM INPUTS FAÇA AQUI     ////////////////////
+
+  .ffInput {
+
+    border-bottom:1px solid #bbb;
+    box-shadow:none;
+    outline: none;
+    border: 0;
+    background-image: linear-gradient(#0e97b7, #0e97b7), linear-gradient(#D2D2D2, #D2D2D2); 
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    border-radius: 0;
+    height: 30px;
+    padding: 0 0;
+    line-height: 1.42857;
+    margin-bottom: 12px;
+    font-family: signikalight;
+
+      &:focus  {
+
+        outline: none;
+        background-size: 100% 2px, 100% 1px;
+        box-shadow: none;
+        transition-duration: 0.3s;
+
+      }
+
+      @include inputStyle;
+      
+  }
+  
+
+////////////////////    END FORM INPUTS FAÇA AQUI     ////////////////////
+
+  
+  
+
+
+////////////////////   FORM INPUTS SELECTS FAÇA AQUI     ////////////////////
+
+
+
+  .fsInput {
+
+    width: 100%;
+    font-size: 1.0rem;
+    margin-bottom: 40px;
+    font-family: signikalight;
+    
+  }
+  
+  
+
+////////////////////  END FORM INPUTS SELECTS FAÇA AQUI     ////////////////////
+
+
+

@@ -1,0 +1,133 @@
+
+
+
+
+
+
+
+// rodapé que controla tudo
+
+    .rdpp{
+
+        background-color: $blue;
+        
+    }
+
+
+// rodapé que controla tudo do corporation
+
+    .rdppc{
+
+        background-color: $blue;
+        border-top: 2px solid $white;
+        height: 40px;
+        font-family: signikaregular;
+        text-decoration: none;
+        color: $white;
+       
+    }
+
+    .rdppc a {
+
+        color: rgba(255, 255, 255, .6);
+       
+        &:hover {
+
+            color: $white; 
+
+        }
+
+    }
+
+
+    // Create for ConsulVision 2019
+
+    .pfd {
+        margin-top: 5px;
+    }
+
+
+
+
+// items do redapé
+
+    .lir {
+        display: inline-block;
+        box-sizing: border-box;
+        height: 40px;
+        width: 40px;
+        line-height: 43px;
+            
+        border-radius: 50%;
+        border: 2px solid $white;
+        background: $white;
+        transition: all .1s ease;
+
+
+        &:hover{
+            cursor: pointer; 
+            background-color: $blueh;
+        } 
+        &:hover > .ar{
+            color: $white;
+        } 
+        .ar {
+        color: $blue;
+        }
+    
+    }
+
+
+// tamanho do redapé
+
+    .frow{
+
+        height: 70px;
+
+    }
+
+
+// tamanho dos icons-redapé
+
+    .iconCresca{
+
+        font-size: 1.5em;
+
+    }
+
+
+
+////////////////////////////  BARRA DE PESQUISAS SHOW TABLETS AND PHONES ////////////////////////////
+
+
+    .search-text {
+        
+        transition: all 100ms ease-in-out;
+        height: 40px;
+        width: 0;
+        margin: 0;
+        padding: 5px 0 10px 40px;
+        box-sizing: border-box;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50px;
+        border: 1px solid transparent;
+        @include searchIcon;
+        background-color: $white;
+
+    }
+
+
+    .search-text:focus {
+
+        width: 160px;
+        border: 2px solid #16c8f0;
+        background-color: $white;
+        outline: none;
+        cursor: auto;
+        padding-right: 7px;
+
+    }
+
+
+

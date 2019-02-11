@@ -1,0 +1,70 @@
+
+
+
+
+@include flabeltStyle;  
+@include signikaregular;  
+
+
+
+// modal pai controla tudo
+
+    .mpai {
+
+        margin-top: 180px;
+
+    }
+  
+  
+  
+// header completo
+
+    .hdrm {
+
+        background-color: $blue;
+        color: white;
+        box-sizing: border-box;
+        width: 100%;
+
+        .hdrmt {
+
+            font-size: 1.8em !important;
+            font-family: signikaregular;
+            margin-top: 5px;
+            margin-left: 5px;
+
+        }
+
+    }
+  
+  
+  
+
+// box completo nome e senha pai
+
+  .boxnsPai {
+
+      margin-top: 50px;
+      padding: 40px;
+      height: 130px;
+      margin-bottom: 20px;
+
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+  }
+  
+  
+  
+// botões cadastrar e entrar
+
+  .fbtnm {
+
+      margin-top: -50px;
+      margin-bottom: -20px;
+
+  }
+  
+  
+///////////////// MEDIAS /////////////////
+
+  

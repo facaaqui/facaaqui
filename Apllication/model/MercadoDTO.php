@@ -166,7 +166,9 @@ class MercadoDTO extends AbstractDTO {
               public function findAllMercadoByIdUser($idUser){
         $queryString = "SELECT * 
                              FROM mercado
-                             WHERE idUser = '$idUser'";
+                             WHERE idUser = '$idUser'
+                             ORDER BY id DESC"
+                ;
         $query = $this->Connection()->query($queryString);
         return $query->fetchAll(PDO::FETCH_OBJ);
     }

@@ -1,0 +1,63 @@
+
+
+
+  
+.faca-textarea-mensagem{
+  border-bottom:1px solid #bbb;
+  box-shadow:none;
+  outline: none;
+  border: 0;
+  background-image: linear-gradient(#0e97b7, #0e97b7), linear-gradient(#D2D2D2, #D2D2D2); 
+  background-size: 0 2px, 100% 1px;
+  background-repeat: no-repeat;
+  background-position: center bottom, center calc(100% - 1px);
+  background-color: transparent;
+  transition: background 0s ease-out;
+  float: none;
+  border-radius: 0;
+  width: 100%;
+  resize: none;
+  height: 30px;
+  padding: 0 0;
+  line-height: 1.42857;
+  font-family: signikalight;
+
+
+  &:focus  {
+    outline: none;
+    background-size: 100% 2px, 100% 1px;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    height: 30px;
+  }
+ 
+}
+
+
+
+.faca-label-mensagem {
+
+    position: relative;
+    top: -34px;
+    left: 0;
+    color: black;
+    font-size: 17px;
+    pointer-events: none;
+    -webkit-transition: all .5s ease;
+    font-family: signikalight;
+    transition: all .5s ease;
+
+}
+
+
+.faca-textarea-mensagem:focus ~ .faca-label-mensagem  {
+
+    top: -70px;
+    left: 0;
+    color: #0b8aa7;
+    font-size: 1rem;
+
+}
+
+
+

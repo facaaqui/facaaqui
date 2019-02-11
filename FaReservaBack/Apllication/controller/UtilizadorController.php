@@ -38,12 +38,12 @@ class UtilizadorController extends AbstractController {
             $logDTO->setData_Log($data);
             $logDTO->setHora_Log($hora);
             $logDTO->save();
-            
-            if($_SESSION['userTipo'] == 1) {header("Location: Pages/Mercados/index.php");}
-            if($_SESSION['userTipo'] != 1) {header("Location: ../index.php");}
+            header("Location: ../index.php");
+            #if($_SESSION['userTipo'] != 1) {header("Location: ../index.php");}
         }
         else{
-            header("Location: ../login.php?mesage");
+           # header("Location: ../login.php?mesage");
+            echo "nao";
           }
    }
 

@@ -1,0 +1,13 @@
+
+
+
+@mixin flabeltStyle {
+    
+    input[type="text"]:focus ~ .flabel, input[type="text"]:valid ~ .flabel, input[type="password"]:focus ~ .flabel, input[type="password"]:valid ~ .flabel, input[type="email"]:focus ~ .flabel, input[type="email"]:valid ~ .flabel {
+        top: -60px;
+        left: 0;
+        color: $blue;
+        font-size: 1rem;
+    }
+    
+}

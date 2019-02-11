@@ -20,7 +20,7 @@ class ClienteController extends AbstractController{
         $dto['UtilizadorDTO']->setIdCliente($idCliente);
         $dto['UtilizadorDTO']->setTipo(3);
         $dto['UtilizadorDTO']->save();
-        header("Location: ../login.php");
+        header("Location: ../index.php");
     }
     
          public function __construct($c = __CLASS__) {

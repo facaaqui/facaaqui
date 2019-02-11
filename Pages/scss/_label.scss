@@ -1,0 +1,23 @@
+
+
+
+ 
+
+////////////////////    FAÇA LABEL    ////////////////////
+
+.flabel {
+
+    position: relative;
+    top: -38px;
+    left: 0;
+    color: black;
+    font-size: 17px;
+    pointer-events: none;
+    transition: all .5s ease;
+    font-family: signikalight;
+
+    @include flabeltStyle;
+    
+}
+  
+  
